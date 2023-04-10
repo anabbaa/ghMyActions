@@ -1,0 +1,5 @@
+name: deploy to 23
+description: deploy to s3 to run a static web seite
+run:
+  using: node16
+  main: mainjs
