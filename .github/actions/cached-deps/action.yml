@@ -7,7 +7,7 @@ inputs:
     default: "true"
 outputs:
   used-cached:
-    describtion: "cashed was used"
+    description: "cashed was used"
     value: ${{ steps.install.outputs.cache}}
 runs:
   using: "composite"
